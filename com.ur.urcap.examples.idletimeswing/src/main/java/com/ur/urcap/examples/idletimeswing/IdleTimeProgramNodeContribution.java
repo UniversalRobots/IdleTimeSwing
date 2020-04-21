@@ -31,6 +31,7 @@ import com.ur.urcap.api.domain.variable.VariableFactory;
 
 import java.util.Collection;
 
+
 public class IdleTimeProgramNodeContribution implements ProgramNodeContribution {
 	public static final String SELECTED_VAR = "selectedVar";
 	private static final String TEXT = "Text";
@@ -78,7 +79,7 @@ public class IdleTimeProgramNodeContribution implements ProgramNodeContribution 
 
 	@Override
 	public void openView() {
-		view.update(this);
+		view.updateView(this);
 	}
 
 	@Override
@@ -88,7 +89,7 @@ public class IdleTimeProgramNodeContribution implements ProgramNodeContribution 
 
 	@Override
 	public String getTitle() {
-		return "Idle Time Swing";
+		return "Idle Time";
 	}
 
 	@Override

@@ -29,7 +29,7 @@ public class IdleTimeProgramNodeService implements SwingProgramNodeService<IdleT
 
 	@Override
 	public String getTitle(Locale locale) {
-		return "Idle Time Swing";
+		return "Idle Time";
 	}
 
 	@Override
